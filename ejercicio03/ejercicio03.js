@@ -5,8 +5,17 @@
  * Recuerda usar la estructura condicional If.
  */
 
-function compareThreeNumbers() {
+function compareThreeNumbers(a, b, c) {
 //Escribe tu codigo aqui
+if (a>b && a>c){
+    return a;
+}else if(b>a && b>c){
+    return b;
+}else if (c>a && c>b){
+    return c;
+}else if (a==b && a==c){
+    return (`iguales`);
+}
 }
 
 module.exports = { compareThreeNumbers };
