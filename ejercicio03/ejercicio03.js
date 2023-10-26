@@ -6,7 +6,6 @@
  */
 
 function compareThreeNumbers(a, b, c) {
-//Escribe tu codigo aqui
 if (a>b && a>c){
     return a;
 }else if(b>a && b>c){

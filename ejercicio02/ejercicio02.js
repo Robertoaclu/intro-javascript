@@ -5,27 +5,22 @@
  */
 
 function sum(a, b) {
- //Escribe tu codigo aqui
  return a + b;
 }
 
 function substract(a, b) {
- //Escribe tu codigo aqui
  return a - b;
 }
 
 function multiply(a, b) {
- //Escribe tu codigo aqui
  return a * b;
 }
 
 function divide(a, b) {
- //Escribe tu codigo aqui
  return a / b;
 }
 
 function total(a, b) {
- //Escribe tu codigo aqui
  return sum(a, b) + substract(a, b) + multiply(a, b) + divide(a, b);
 }
 
