@@ -9,12 +9,14 @@
 function determinarTipoNumero(num) {
  if (isNaN(num)){
     return `No has introducido un numero`;
- }else if (num<0){
+ }else if (num>0 || num===0){
+   console.log(num);
     return `El numero es positivo`;
- }else if (num>=0){
+    
+ }else if (num<0){
     return `El numero es negativo`;
  }else{
-    return `El numero es nullo`;
+    return `El numero es nulo`;
  }
 }
 
