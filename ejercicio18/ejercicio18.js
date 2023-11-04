@@ -12,6 +12,8 @@ function sumaNPrimerosNumerosPares(N) {
   for (let i = 0; i < N; i++){
     suma += N + (n % 2) + (i*2);
   }
+  return suma;
 }
+
 
 module.exports = { sumaNPrimerosNumerosPares };

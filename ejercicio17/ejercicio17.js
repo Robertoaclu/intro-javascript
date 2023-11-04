@@ -6,7 +6,12 @@
  */
 
 function calcularSumaNumerosNaturales(N) {
-  //Escribe tu codigo aqui
+  let suma=0;
+  let lista=[];
+  for (i=0; i<=N; i++){
+    suma+=lista[i];
+  }
+  return suma;
 }
 
 module.exports = { calcularSumaNumerosNaturales };

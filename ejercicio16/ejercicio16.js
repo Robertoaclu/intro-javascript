@@ -6,7 +6,11 @@
  */
 
 function cuadraroNumerosNaturales() {
-  //Escribe tu codigo aqui
+  let lista =[];
+    for (i=0; i<=9; i++) {
+        lista[i] = i ** 2;
+    }
+    return lista;
 }
 
 module.exports = { cuadraroNumerosNaturales };

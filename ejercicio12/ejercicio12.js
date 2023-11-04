@@ -25,8 +25,13 @@
  *  el numero de sonidos es 0, es un error y debe de retornar error.
  */
 
-function temperaturaGrillo() {
-  //Escribe tu codigo aqui
+function temperaturaGrillo(N) {
+  if (N == 0){
+   return `Error`; 
+  }else if (N > 0){  
+    let T = N /4 +40;
+    return T;
+  }
 }
 
 module.exports = { temperaturaGrillo };
